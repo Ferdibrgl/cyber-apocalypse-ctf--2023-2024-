@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTB-Cyber-Apocalypse-2023-main", "HTB-Cyber-Apocalypse-2023-main", "{4C0F17E1-C639-47A8-A046-DAED580FED73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forensics", "Forensics", "{FF28A9A9-6A54-4DAA-BC20-7C6F86B70111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Relic Maps", "Relic Maps", "{53EDC233-1920-4226-B3ED-3B5374D526F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{6E865209-F24E-48F6-AA7A-397E6097DF28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RelicMaps", "HTB-Cyber-Apocalypse-2023-main\Forensics\Relic Maps\files\relics\RelicMaps.csproj", "{449DC72C-F44B-4CA2-A477-269CB7DDCA8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{449DC72C-F44B-4CA2-A477-269CB7DDCA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449DC72C-F44B-4CA2-A477-269CB7DDCA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449DC72C-F44B-4CA2-A477-269CB7DDCA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449DC72C-F44B-4CA2-A477-269CB7DDCA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF28A9A9-6A54-4DAA-BC20-7C6F86B70111} = {4C0F17E1-C639-47A8-A046-DAED580FED73}
+		{53EDC233-1920-4226-B3ED-3B5374D526F3} = {FF28A9A9-6A54-4DAA-BC20-7C6F86B70111}
+		{6E865209-F24E-48F6-AA7A-397E6097DF28} = {53EDC233-1920-4226-B3ED-3B5374D526F3}
+		{449DC72C-F44B-4CA2-A477-269CB7DDCA8D} = {6E865209-F24E-48F6-AA7A-397E6097DF28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAADD869-80DA-4790-BE00-B654226EA949}
+	EndGlobalSection
+EndGlobal
